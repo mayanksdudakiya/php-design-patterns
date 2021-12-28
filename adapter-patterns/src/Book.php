@@ -2,8 +2,9 @@
 
 namespace Acme;
 
+use Acme\BookInterface;
 
-class Book 
+class Book implements BookInterface
 {
 	
 	public function open()
